@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <!--<link type="text/css" rel="stylesheet" media="all" href="/style.css" />-->
+    <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+    <title>Only Consonants</title>
+    <script src="messages.js"></script>
+    <script src="functions.js"></script>
+    <script src="categories.js"></script>
+  </head>
+  <body onload="start()" lang="en">
+    <div id="outer_container">
+      <div id="container">
+        <div id="heading">
+          <h1>Only Consonants</h1>
+        </div>
+        <div id="content">
+          <div class="right">
+            <div class="blurb">
+              <div id="div_clue">&nbsp;</div>
+              <div id="div_missing_vowels">&nbsp;</div>
+              <div class="center"><input id="input_guess" type="text" value=""/></div>
+              <div id="div_message">Press enter or space to begin</div>
+            </div>
+            <div class="tab">
+              <div class="tab_row">
+                <div class="tab_cell">
+                  <table class="table_score">
+                    <tbody>
+                      <tr>
+                        <th id="th_score_total" class="th_score">Total:</th>
+                        <td id="td_score_total" class="td_score"></td>
+                      </tr>
+                      <tr>
+                        <th id="th_score_correct" class="th_score">Correct:</th>
+                        <td id="td_score_correct" class="td_score"></td>
+                      </tr>
+                      <tr>
+                        <th id="th_score_incorrect" class="th_score">Incorrect:</th>
+                        <td id="td_score_incorrect" class="td_score"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab_cell">
+                  <table class="timer">
+                    <tbody>
+                      <tr><th id="th_time">Time:</th><td id="time_seconds"></td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="blurb">
+              <h2>Instructions</h2>
+              <p>The game is split into a series of categories with a fixed number of puzzles per category.  Each category has a clue, which is shown near the top of the page.  Underneath this is a series of consonants and spaces, and the goal is to reinsert the vowels to find the answer.  The spaces are not in the correct place.</p>
+              
+              <p>For example, if the category clue was "Cocktails" and the consonants were "WHTR SSN" the answer would be "White Russian".</p>
+              
+              <p>The case of the letters doesn't matter, and apart from the spaces, all punctuation is ignored.  You get 10 seconds per puzzle, and that includes typing time.</p>
+              
+              <p>Press space or enter to start.  Press enter to guess a word.  Press escape to stop the game.</p>
+            </div>
+          </div>
+        </div>
+        <img style="display:none" src="OnlyConsonants.jpg"/>
+      <div id="footer">&copy; 2010-2014 Aidan Randle-Conde /
+        Validation: <a href="http://validator.w3.org/check?uri=referer">XHTML</a> / <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">CSS</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

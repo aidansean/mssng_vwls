@@ -1,0 +1,169 @@
+div#div_missing_vowels, div#div_clue, div#div_message{
+  border-radius : 10px ;
+  padding : 4px ;
+  width : 596px ;
+  margin : auto ;
+  text-align : center ;
+  margin-bottom : 10px ;
+}
+div#div_missing_vowels{
+  font : 30pt arial , sans-serif ;
+  font-weight : bold ;
+  text-align : center ;
+  border : 2px solid rgb(69,117,177) ;
+}
+div.div_missing_vowels_neutral{ color : rgb( 29, 72,126) ; }
+div.div_missing_vowels_success{ color : rgb( 27,148,123) ; }
+div.div_missing_vowels_failure{ color : rgb(154, 18, 82) ; }
+div#div_clue{
+  font : 20pt arial , sans-serif ;
+  background : rgb(13,45,90) ;
+  color : white ;
+  border : 2px solid rgb(13,45,90) ;
+}
+div#div_timer{
+  width : 200px ;
+}
+input#input_guess{
+  font : 30pt arial , sans-serif ;
+  font-weight : bold ;
+  text-align : center ;
+  width : 600px ;
+  border : 1px solid rgb(29,72,126) ;
+  margin-bottom : 10px ;
+  color : rgb(29,72,126) ;
+  text-transform : uppercase ;
+}
+div#div_message{
+  font : 20pt arial , sans-serif ;
+}
+div.message_empty{
+  background : none ;
+}
+div.message_neutral, div.message_success, div.message_failure{ color : white ; }
+div.message_neutral{ background : rgb( 29, 72,126) ; }
+div.message_success{ background : rgb( 27,148,123) ; }
+div.message_failure{ background : rgb(154, 18, 82) ; }
+
+table.table_score{
+  width : 200px ;
+  margin : auto ;
+}
+th.th_score{
+  width : 100px ;
+  text-align : right ;
+  padding-right : 1em ;
+  color : white ;
+}
+td.td_score{
+  width : 100px ;
+  text-align : left ;
+  padding-left : 1em ;
+  background : white ;
+}
+th#th_score_total    { background : rgb( 29, 72,126) ; } td#td_score_total    { color : rgb( 29, 72,126) ; }
+th#th_score_correct  { background : rgb( 27,148,123) ; } td#td_score_correct  { color : rgb( 27,148,123) ; }
+th#th_score_incorrect{ background : rgb(154, 18, 82) ; } td#td_score_incorrect{ color : rgb(154, 18, 82) ; }
+
+th#th_time, td#time_seconds{
+  font : 30pt arial , sans-serif ;
+  text-align : center ;
+  color : rgb(29,72,126) ;
+  width : 50% ;
+}
+
+div.tab{
+  display : table ;
+  width :600px ;
+  margin : auto ;
+}
+div.tab_row{
+  display : table-row ;
+}
+div.tab_cell{
+  display : table-cell ;
+  text-align : center ;
+  vertical-align : middle ;
+}
+
+/* Adapted from www.aidansean.com */
+/* Not the best style in the world */
+body, p{
+  font-family : arial , sans-serif ;
+  font-size : 12pt ;
+  line-height : 18pt ;
+  text-align : justify ;
+}
+p{
+  padding-left  : 1em ;
+  padding-right : 1em ;
+}
+body{
+  background : rgb(77,113,196) ;
+}
+div#container{
+  width : 800px ;
+  margin : auto ;
+  border : 1px solid rgb(29,72,126) ;
+  background-color : rgb(203,224,244) ;
+}
+div#outer_container{
+  width : 804px ;
+  margin : auto ;
+  border : 1px solid rgb(29,72,126) ;
+  padding : 2px ;
+  background-color : white ;
+  /*background-color : rgb(203,224,244) ; */
+  margin-bottom : 20px ;
+}
+div#heading{
+  width : 100% ;
+  padding : 0px ;
+  background : rgb(29,72,126) ;
+}
+div#content{ padding : 20px ; }
+h1, h2, h3, h4, h5, h6{
+  font-family : georgia , serif ;
+  font-style : italic ;
+  text-align : center ;
+}
+h1, h2{
+  font-family : arial black , sans-serif ;
+  font-style : normal ;
+  padding : 0.5em ;
+  color : white ;
+  line-height : 1em ;
+  margin : 0px ;
+}
+h1{
+  font-size : 40pt ;
+}
+h2{
+  padding-top : 0.5em ;
+  padding-bottom : 0.5em ;
+  margin-top : 1em ;
+  background : rgb(29,72,126) ;
+  border-radius : 10px ;
+}
+div#footer{
+  font-size : 8pt ;
+  font-style : italic ;
+  font-family : times , serif ;
+  text-align : center ;
+  padding : 5px ;
+  clear : both ;
+}
+div.right{
+  margin-top : 20px ;
+  margin-bottom : 5px ;
+}
+div.blurb{
+	margin : 0px ;
+	padding : 2px ;
+	padding-top : 1px ;
+	font-size : 10pt ;
+	text-align : justify ;
+}
+div.center{
+  text-align : center ;
+}
