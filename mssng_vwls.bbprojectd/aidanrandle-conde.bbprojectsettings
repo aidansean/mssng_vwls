@@ -5,7 +5,7 @@
 	<key>EmbeddedEditorHidden:aidanrandle-conde</key>
 	<false/>
 	<key>ExpandedEditorWidth:aidanrandle-conde:displays([(0, 0), (1680, 1050)]:[(1680, 0), (1920, 1080)])</key>
-	<integer>695</integer>
+	<integer>755</integer>
 	<key>ExpandedItems:aidanrandle-conde</key>
 	<array>
 		<string>E1C447DD-174F-49C8-9A9D-9EF8E07FCB69</string>
@@ -189,7 +189,55 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2014-03-19T13:31:36Z</date>
+			<date>2014-03-24T15:52:15Z</date>
+			<key>Location</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9vawQEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAADAMAAAUAAAABAQAAVXNlcnMA
+				AAARAAAAAQEAAGFpZGFucmFuZGxlLWNvbmRlAAAACAAA
+				AAEBAABQcm9qZWN0cw0AAAABAQAAcHJvamVjdHNfZGF0
+				YQAAAAoAAAABAQAAbXNzbmdfdndscwAAAwAAAAEBAABz
+				cmMADQAAAAEBAABjYXRlZ29yaWVzLmpzAAAAHAAAAAEG
+				AAAEAAAAFAAAADAAAABAAAAAWAAAAGwAAAB4AAAACAAA
+				AAQDAADpEAIAAAAAAAgAAAAEAwAAqMMFAAAAAAAIAAAA
+				BAMAABuRqAEAAAAACAAAAAQDAAAamagBAAAAAAgAAAAE
+				AwAATJ2xAQAAAAAIAAAABAMAAHKdsQEAAAAACAAAAAQD
+				AABPnbEBAAAAABwAAAABBgAAtAAAAMQAAADUAAAA5AAA
+				APQAAAAEAQAAFAEAAAgAAAAABAAAQbjD4EEAAAAYAAAA
+				AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAQAAAAD
+				AwAABQAAAAQAAAADAwAA9QEAAAwAAAABAQAATWFjaW50
+				b3NoIEhECAAAAAQDAAAAIIg9OgAAAAgAAAAABAAAQbbv
+				kdoAAAAkAAAAAQEAADVDREZDNEU2LTIxQzQtM0JDRC04
+				RUJGLTM1OTIwRjg4NDA4RRgAAAABAgAAgQAAAAEACADv
+				FwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEF
+				AADdAAAAAQIAAGY4MTM3Y2U3MTY0OWMzMjhmNWFmYzkw
+				OTE1ODE0MmNmMWE0NmI5MTA7MDAwMDAwMDA7MDAwMDAw
+				MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBwbGUuYXBw
+				LXNhbmRib3gucmVhZC13cml0ZTswMDAwMDAwMTswMTAw
+				MDAwMTswMDAwMDAwMDAxYjE5ZDRmOy91c2Vycy9haWRh
+				bnJhbmRsZS1jb25kZS9wcm9qZWN0cy9wcm9qZWN0c19k
+				YXRhL21zc25nX3Z3bHMvc3JjL2NhdGVnb3JpZXMuanMA
+				AAAAwAAAAP7///8BAAAAAAAAAA8AAAAEEAAAkAAAAAAA
+				AAAFEAAAJAEAAAAAAAAQEAAAWAEAAAAAAABAEAAASAEA
+				AAAAAAACIAAAEAIAAAAAAAAQIAAAkAEAAAAAAAARIAAA
+				xAEAAAAAAAASIAAApAEAAAAAAAATIAAAtAEAAAAAAAAg
+				IAAA8AEAAAAAAAAwIAAAHAIAAAAAAAABwAAAeAEAAAAA
+				AAARwAAAFAAAAAAAAAASwAAAhAEAAAAAAACA8AAAJAIA
+				AAAAAAA=
+				</data>
+				<key>FileURL</key>
+				<string>file://localhost/Users/aidanrandle-conde/Projects/projects_data/mssng_vwls/src/categories.js</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>Date</key>
+			<date>2014-03-24T15:52:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -237,7 +285,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2014-03-19T13:31:36Z</date>
+			<date>2014-03-24T15:52:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -283,7 +331,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2014-03-19T13:31:36Z</date>
+			<date>2014-03-24T15:52:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -328,54 +376,6 @@
 				<integer>1</integer>
 			</dict>
 		</dict>
-		<dict>
-			<key>Date</key>
-			<date>2014-03-19T13:31:36Z</date>
-			<key>Location</key>
-			<dict>
-				<key>BookmarkData</key>
-				<data>
-				Ym9vawQEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAADAMAAAUAAAABAQAAVXNlcnMA
-				AAARAAAAAQEAAGFpZGFucmFuZGxlLWNvbmRlAAAACAAA
-				AAEBAABQcm9qZWN0cw0AAAABAQAAcHJvamVjdHNfZGF0
-				YQAAAAoAAAABAQAAbXNzbmdfdndscwAAAwAAAAEBAABz
-				cmMADQAAAAEBAABjYXRlZ29yaWVzLmpzAAAAHAAAAAEG
-				AAAEAAAAFAAAADAAAABAAAAAWAAAAGwAAAB4AAAACAAA
-				AAQDAADpEAIAAAAAAAgAAAAEAwAAqMMFAAAAAAAIAAAA
-				BAMAABuRqAEAAAAACAAAAAQDAAAamagBAAAAAAgAAAAE
-				AwAATJ2xAQAAAAAIAAAABAMAAHKdsQEAAAAACAAAAAQD
-				AABPnbEBAAAAABwAAAABBgAAtAAAAMQAAADUAAAA5AAA
-				APQAAAAEAQAAFAEAAAgAAAAABAAAQbjD4EEAAAAYAAAA
-				AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAQAAAAD
-				AwAABQAAAAQAAAADAwAA9QEAAAwAAAABAQAATWFjaW50
-				b3NoIEhECAAAAAQDAAAAIIg9OgAAAAgAAAAABAAAQbbv
-				kdoAAAAkAAAAAQEAADVDREZDNEU2LTIxQzQtM0JDRC04
-				RUJGLTM1OTIwRjg4NDA4RRgAAAABAgAAgQAAAAEACADv
-				FwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEF
-				AADdAAAAAQIAAGY4MTM3Y2U3MTY0OWMzMjhmNWFmYzkw
-				OTE1ODE0MmNmMWE0NmI5MTA7MDAwMDAwMDA7MDAwMDAw
-				MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBwbGUuYXBw
-				LXNhbmRib3gucmVhZC13cml0ZTswMDAwMDAwMTswMTAw
-				MDAwMTswMDAwMDAwMDAxYjE5ZDRmOy91c2Vycy9haWRh
-				bnJhbmRsZS1jb25kZS9wcm9qZWN0cy9wcm9qZWN0c19k
-				YXRhL21zc25nX3Z3bHMvc3JjL2NhdGVnb3JpZXMuanMA
-				AAAAwAAAAP7///8BAAAAAAAAAA8AAAAEEAAAkAAAAAAA
-				AAAFEAAAJAEAAAAAAAAQEAAAWAEAAAAAAABAEAAASAEA
-				AAAAAAACIAAAEAIAAAAAAAAQIAAAkAEAAAAAAAARIAAA
-				xAEAAAAAAAASIAAApAEAAAAAAAATIAAAtAEAAAAAAAAg
-				IAAA8AEAAAAAAAAwIAAAHAIAAAAAAAABwAAAeAEAAAAA
-				AAARwAAAFAAAAAAAAAASwAAAhAEAAAAAAACA8AAAJAIA
-				AAAAAAA=
-				</data>
-				<key>FileURL</key>
-				<string>file://localhost/Users/aidanrandle-conde/Projects/projects_data/mssng_vwls/src/categories.js</string>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
 	</array>
 	<key>RecentItemsExpanded</key>
 	<true/>
@@ -390,8 +390,8 @@
 	<key>ToolbarVisible:aidanrandle-conde</key>
 	<true/>
 	<key>ViewSplitterPosition:aidanrandle-conde</key>
-	<real>0.18256773054599762</real>
+	<real>0.20127119123935699</real>
 	<key>WindowFrame:aidanrandle-conde:displays([(0, 0), (1680, 1050)]:[(1680, 0), (1920, 1080)])</key>
-	<string>rect(88,44,996,893)</string>
+	<string>rect(88,44,991,988)</string>
 </dict>
 </plist>
