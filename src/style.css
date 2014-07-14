@@ -22,7 +22,7 @@ div#div_clue{
   border : 2px solid rgb(13,45,90) ;
 }
 div#div_timer{
-  width : 200px ;
+  width : 300px ;
 }
 input#input_guess{
   font : 30pt arial , sans-serif ;
@@ -65,11 +65,13 @@ th#th_score_total    { background : rgb( 29, 72,126) ; } td#td_score_total    { 
 th#th_score_correct  { background : rgb( 27,148,123) ; } td#td_score_correct  { color : rgb( 27,148,123) ; }
 th#th_score_incorrect{ background : rgb(154, 18, 82) ; } td#td_score_incorrect{ color : rgb(154, 18, 82) ; }
 
-th#th_time, td#time_seconds{
-  font : 30pt arial , sans-serif ;
+th#th_time, th#th_game_time, td#time_seconds, td#td_game_time{
+  font : 15pt arial , sans-serif ;
   text-align : center ;
   color : rgb(29,72,126) ;
-  width : 50% ;
+}
+th#th_time, th#th_game_time{
+  width : 80% ;
 }
 
 div.tab{

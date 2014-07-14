@@ -8,6 +8,19 @@
     <script src="messages.js"></script>
     <script src="functions.js"></script>
     <script src="categories.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28000647-1']);
+      _gaq.push(['_setDomainName', 'aidansean.com']);
+      _gaq.push(['_trackPageview']);
+  
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
   </head>
   <body onload="start()" lang="en">
     <div id="outer_container">
@@ -46,7 +59,10 @@
                 <div class="tab_cell">
                   <table class="timer">
                     <tbody>
-                      <tr><th id="th_time">Time:</th><td id="time_seconds"></td></tr>
+                      <tr><th id="th_time">Time per clue:</th><td id="time_seconds">0.0s</td></tr>
+                    </tbody>
+                    <tbody>
+                      <tr><th id="th_game_time">Time per game:</th><td id="td_game_time">2:00</td></tr>
                     </tbody>
                   </table>
                 </div>

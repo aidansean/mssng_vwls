@@ -7,6 +7,8 @@ var delay        =   100 ;
 var big_delay    =  1000 ;
 var bigger_delay =  2000 ;
 var timer_start  = 10000 ;
+var game_timer   = 1000*60*2 ;
+var game_timer_delay = 1000 ;
 
 var n_total   = 0 ;
 var n_correct = 0 ;
@@ -27,7 +29,7 @@ function stopwatch(){
   if(done  ) return ;
   timer = timer-delay ;
   var ds = Math.floor((timer%1000)/100) ;
-  var s = Math.floor(timer/1000) ;
+  var s  = Math.floor(timer/1000) ;
   Get('time_seconds').innerHTML = s+'.'+ds+'s' ;
   if(timer<=0){
     make_guess() ;
@@ -42,6 +44,22 @@ function start(){
   Get('input_guess').focus() ;
   //Get('input_guess').addEventListener('change', capitalize) ;
 }
+function end_game(){
+  done = true ;
+  var message = random_element(response_timeout) ;
+  finish_game(message) ;
+}
+function update_game_time(){
+  var s_all = Math.floor(game_timer/1000) ;
+  var minutes = Math.floor(s_all/60) ;
+  var seconds = s_all - 60*minutes ;
+  if(seconds==00){ seconds = '00' ; }
+  else if(seconds<10){ seconds = '0' + seconds ; }
+  Get('td_game_time').innerHTML = minutes + ':' + seconds ;
+  if(done) return ;
+  game_timer -= game_timer_delay ;
+  window.setTimeout(update_game_time,game_timer_delay) ;
+}
 
 function keyDown(evt){
   var keyDownID = window.event ? event.keyCode : (evt.keyCode != 0 ? evt.keyCode : evt.which) ;
@@ -51,6 +69,8 @@ function keyDown(evt){
       evt.preventDefault() ;
       if(started==false){
         started = true ;
+        window.setTimeout(end_game,game_timer) ;
+        update_game_time() ;
         prepare_next_clue() ;
       }
       else if(paused==false){
@@ -78,18 +98,21 @@ function keyDown(evt){
       break ;
   }
 }
+function finish_game(message){
+  Get('div_clue'          ).innerHTML = '&nbsp;' ;
+  Get('div_missing_vowels').innerHTML = '&nbsp;' ;
+  Get('input_guess'       ).value = '' ;
+  Get('div_message'       ).className = 'message_neutral' ;
+  Get('div_missing_vowels').className = 'div_missing_vowels_neutral' ;
+  Get('div_message').innerHTML = message + '<br />You scored ' + n_correct + ' out of a possible ' + n_total + ' points.' ;
+}
 function prepare_next_clue(){
   if(started==false) return ;
   if( paused==false) return ;
   if(   done==true ) return ;
   if(answers_this_category==answers_per_category){
     if(all_categories.length==0){
-      Get('div_clue'          ).innerHTML = '&nbsp;' ;
-      Get('div_missing_vowels').innerHTML = '&nbsp;' ;
-      Get('input_guess').value = '' ;
-      Get('div_message'       ).className = 'message_neutral' ;
-      Get('div_missing_vowels').className = 'div_missing_vowels_neutral' ;
-      Get('div_message').innerHTML = 'I\'m sorry, I\'m out of categories.<br />You scored ' + n_correct + ' out of a possible ' + n_total + ' points.' ;
+      finish_game('I\'m sorry, I\'m out of categories.') ;
       return ;
     }
     var index = Math.floor(all_categories.length*Math.random()) ;
