@@ -1,3 +1,4 @@
+<?php header('Content-Type: text/html;charset=UTF-8') ; ?>
 <!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
   <head>
@@ -79,7 +80,7 @@
             </div>
           </div>
         </div>
-        <img style="display:none" src="OnlyConsonants.jpg"/>
+        <img style="display:none" src="OnlyConsonants.jpg" alt=""/>
       <div id="footer">&copy; 2010-2014 Aidan Randle-Conde /
         Validation: <a href="http://validator.w3.org/check?uri=referer">XHTML</a> / <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">CSS</a>
         </div>
