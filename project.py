@@ -3,9 +3,13 @@ from project_module import project_object, image_object, link_object, challenge_
 p = project_object('mssng_vwls', 'Only Connect Missing Vowels game')
 p.domain = 'http://www.aidansean.com/'
 p.path = 'mssng_vwls'
-p.preview_image_ = image_object('http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg', 408, 287)
+p.preview_image    = image_object('%s/images/project.jpg'   %p.path, 150, 250)
+p.preview_image_bw = image_object('%s/images/project_bw.jpg'%p.path, 150, 250)
+p.folder_name = 'aidansean'
 p.github_repo_name = 'mssng_vwls'
 p.mathjax = False
+p.tags = 'Games'
+p.technologies = 'CSS,HTML,JavaScript'
 p.links.append(link_object(p.domain, 'marathon', 'Live page'))
 p.introduction = 'Once I came across Only Connect I became a big fan, and especially enjoyed the Missing Vowels game.  I thought this could use a game that people could play online to complement the existing "Connecting Wall" game.'
 p.overview = '''The user is given a series of consonants and has to type the complete phrase, with vowels, into the input.  Event listeners handle all the user interaction and update the score when the enter key is pressed.  The quiz is timed so that the user gets 10 seconds per clue.  The categories are separate from the rest of the code to make it easier for contributors to add new categories (although in reality they still email me lists instead of sending me an updated file).'''
